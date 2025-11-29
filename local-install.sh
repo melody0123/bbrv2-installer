@@ -1,4 +1,19 @@
 #!/bin/bash
+
+# ==============================================================================
+# BBRv2 Kernel Builder
+# Copyright (c) 2025 melody0123
+#
+# Licensed under the MIT License. 
+# You may obtain a copy of the License at: https://opensource.org/licenses/MIT
+#
+# ------------------------------------------------------------------------------
+# Based on 'gce-install.sh' from the Google BBR Repository, branch v2alpha.
+# Original Code Copyright (c) Google LLC.
+# The original code is dual-licensed under GPLv2 / BSD.
+# This derivative work elects to use the BSD license terms for the original code.
+# ==============================================================================
+
 # Build a Linux kernel as a Debian Package (.deb)
 # This script is only tested on Ubuntu 22.04 with kernel 5.15.0
 
